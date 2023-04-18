@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoja de Vida - Nombre Apellido</title>
+	<link rel="stylesheet"  type="text/css" href="css/stilos.css">
+	<meta charset="utf-8">
+</head>
+<body class="tema1">
+
+	<div>
+		<label for="temas">Selecciona un tema:</label>
+		<select id="temas" onchange="cambiarTema()">
+			<option value="tema1">Tema 1</option>
+			<option value="tema2">Tema 2</option>
+			<option value="tema3">Tema 3</option>
+		</select>
+	</div>
+   <nav>
+		<a href="paginas/experiencia_laboral.html">Experiencia laboral</a>
+		<a href="paginas/referencias_familiares.html">Referencias personales</a>
+		<a href="paginas/referencias_personales.html">Referencias familiares</a>
+		<a href="paginas/estudios_realizados.html">Estudios realizados</a>
+	</nav>
+	<header>
+        <img src="imag/Captura de pantalla 2023-02-07 083312.png" alt="Foto de Nombre Apellido">
+		<h1>Hoiver Valencia Rubio</h1>
+		<p>Cel: 3126387729 | Correo electrónico: hoiver75@hotmail.com | Dirección: Cl 24A #61-59, Itagui, Antioquia, Colombia</p>
+		<p>Ingeniero Mecatronico</p>
+	</header>
+
+	<section>
+		<button class="acordion">Resumen</button>
+		<div class="panel">
+		<h2>Resumen</h2>
+		<p>Mi objetivo es interviene los sistemas y equipos que integran la mecánica, la electrónica, la informática y el control
+            automático, en el contexto de los procesos de producción industrial y los servicios, desde la perspectiva del
+            diseño e implementación de equipos y sistemas automáticos, de la medición, modelamiento, simulación y el
+            control automático de variables, mediante la incorporación del tratamiento digital de las variables, la informática y
+            la mecánica bajo procedimientos sistemáticos y con responsabilidad técnica, económica y ambiental</p>
+		 </div>
+	</section>
+
+	
+	
+	<section>
+		<button class="acordion">Habilidades y Conocimientos</button>
+		<div class="panel">
+		<h2>Habilidades y Conocimientos</h2>
+		<ul>
+			<li> Programacion en C, C++,Python</li>
+			<li>Programacion Html,Css,JavaScrit,Java</li>
+			<li>Diseño en Invertor, Solid Edge , NX</li>
+			<li> Automatizacion PLC, Microcontroladores</li>
+			<li>Trabajo en Equipo</li>
+			
+		</ul>
+	  </div>
+	</section>
+
+	   <a download = "Hoja de Vida" href="doc/Hoja de Vida_A .pdf">click para descargar CV</a>
+
+	   <script src="Javascript/scrip.js"></script>
+</body>
+</html>
